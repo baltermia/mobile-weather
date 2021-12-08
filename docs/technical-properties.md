@@ -55,3 +55,8 @@ The app should save the last location automatically. So this test is fairly easy
 4. Open the app again
 5. Check if the Location is the same as before (or if set at all)
 
+## Packages
+<img src="https://raw.githubusercontent.com/speyck/mobile-weather/main/docs/packages.drawio.svg" width="650px" />
+
+## Deployment Diagram
+<img src="https://raw.githubusercontent.com/speyck/mobile-weather/main/docs/deployment.drawio.svg" width="650px" />
