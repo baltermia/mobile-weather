@@ -1,0 +1,405 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1269px" height="644px" viewBox="-0.5 -0.5 1269 644" content="&lt;mxfile&gt;&lt;diagram id=&quot;t7gZdz9ADR1en-peB1Jg&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="358" height="642" fill="#333333" stroke="none" pointer-events="none"/>
+        <rect x="0" y="24" width="358" height="57" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <rect x="6" y="28.5" width="346" height="48" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <g fill="#B3B3B3" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="13px">
+            <text x="153.5" y="57.5">
+                Serach for a new Location
+            </text>
+        </g>
+        <ellipse cx="28" cy="49.5" rx="6" ry="6" fill="none" stroke="#666666" stroke-width="2" pointer-events="none"/>
+        <rect x="22" y="43.5" width="0" height="0" fill="none" stroke="#666666" stroke-width="2" pointer-events="none"/>
+        <path d="M 32.12 53.63 L 40 61.5" fill="none" stroke="#666666" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="0" y="594" width="358" height="48" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 82.5 618 L 96.5 611 L 96.5 625 Z" fill="#000000" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="179" cy="618" rx="7.000000000000001" ry="7.000000000000001" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <rect x="261.5" y="611" width="14" height="14" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <rect x="0" y="0" width="358" height="24" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <g fill="#FFFFFF" font-family="Helvetica" pointer-events="none" text-anchor="end" font-size="13px">
+            <text x="351.5" y="17.5">
+                13:37
+            </text>
+        </g>
+        <path d="M 303.3 19 L 303.3 6.25 L 305.78 6.25 L 305.78 5.09 L 309.51 5.09 L 309.51 6.25 L 312 6.25 L 312 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="303.3" y="9.73" width="8.7" height="9.27" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 298.32 5.09 L 298.32 19 L 283.41 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 283.41 19 L 294.59 8.57 L 294.59 19 Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 266 8.57 C 268.24 6.3 271.39 5 274.7 5 C 278.01 5 281.17 6.3 283.41 8.57 L 274.7 19 Z Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 267.49 10.31 C 269.37 8.47 271.98 7.42 274.7 7.42 C 277.43 7.42 280.04 8.47 281.91 10.31 L 274.7 19 Z Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="460" y="0" width="358" height="642" fill="#333333" stroke="none" pointer-events="none"/>
+        <rect x="460" y="24" width="358" height="57" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <rect x="466" y="28.5" width="346" height="48" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <ellipse cx="488" cy="49.5" rx="6" ry="6" fill="none" stroke="#666666" stroke-width="2" pointer-events="none"/>
+        <rect x="482" y="43.5" width="0" height="0" fill="none" stroke="#666666" stroke-width="2" pointer-events="none"/>
+        <path d="M 492.13 53.63 L 500 61.5" fill="none" stroke="#666666" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="460" y="594" width="358" height="48" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 542.5 618 L 556.5 611 L 556.5 625 Z" fill="#000000" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="639" cy="618" rx="7.000000000000001" ry="7.000000000000001" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <rect x="721.5" y="611" width="14" height="14" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <rect x="460" y="0" width="358" height="24" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <g fill="#FFFFFF" font-family="Helvetica" pointer-events="none" text-anchor="end" font-size="13px">
+            <text x="811.5" y="17.5">
+                13:37
+            </text>
+        </g>
+        <path d="M 763.3 19 L 763.3 6.25 L 765.78 6.25 L 765.78 5.09 L 769.51 5.09 L 769.51 6.25 L 772 6.25 L 772 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="763.3" y="9.73" width="8.7" height="9.27" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 758.32 5.09 L 758.32 19 L 743.41 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 743.41 19 L 754.59 8.57 L 754.59 19 Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 726 8.57 C 728.24 6.3 731.39 5 734.7 5 C 738.01 5 741.17 6.3 743.41 8.57 L 734.7 19 Z Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 727.49 10.31 C 729.37 8.47 731.98 7.42 734.7 7.42 C 737.43 7.42 740.04 8.47 741.91 10.31 L 734.7 19 Z Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="460" y="81" width="358" height="57" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" font-size="16px">
+            <text x="477.5" y="102.5">
+                Schlieren
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" font-size="14px">
+            <text x="477.5" y="124.5">
+                Switzerland, Zürich
+            </text>
+        </g>
+        <rect x="460" y="138" width="358" height="57" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" font-size="16px">
+            <text x="477.5" y="159.5">
+                Schaffhausen
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" font-size="14px">
+            <text x="477.5" y="181.5">
+                Switzerland, Schaffhausen
+            </text>
+        </g>
+        <rect x="460" y="250" width="358" height="57" fill="#e6e6e6" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" font-size="16px">
+            <text x="477.5" y="271.5">
+                Schübelbach
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" font-size="14px">
+            <text x="477.5" y="293.5">
+                Switzerland, Schwyz
+            </text>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 53px; margin-left: 511px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                Sch
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="530" y="59" fill="#000000" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    Sch
+                </text>
+            </switch>
+        </g>
+        <rect x="460" y="195" width="358" height="57" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" font-size="16px">
+            <text x="477.5" y="216.5">
+                Schwerzenbach
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" font-size="14px">
+            <text x="477.5" y="238.5">
+                Switzerland, Zürich
+            </text>
+        </g>
+        <rect x="460" y="371" width="358" height="224" fill="#263238" stroke="none" pointer-events="none"/>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="486.5" y="418.5">
+                q
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="520.5" y="418.5">
+                w
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="554.5" y="418.5">
+                e
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="588.5" y="418.5">
+                r
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="622.5" y="418.5">
+                t
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="656.5" y="418.5">
+                y
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="690.5" y="418.5">
+                u
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="724.5" y="418.5">
+                i
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="758.5" y="418.5">
+                o
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="792.5" y="418.5">
+                p
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="501.5" y="471.5">
+                a
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="535.5" y="471.5">
+                s
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="569.5" y="471.5">
+                d
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="603.5" y="471.5">
+                f
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="637.5" y="471.5">
+                g
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="671.5" y="471.5">
+                h
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="705.5" y="471.5">
+                j
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="739.5" y="471.5">
+                k
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="773.5" y="471.5">
+                l
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="535.5" y="522.5">
+                z
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="569.5" y="522.5">
+                x
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="603.5" y="522.5">
+                c
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="637.5" y="522.5">
+                v
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="671.5" y="522.5">
+                b
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="705.5" y="522.5">
+                n
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="739.5" y="522.5">
+                m
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="496.5" y="401.5">
+                1
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="530.5" y="401.5">
+                2
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="564.5" y="401.5">
+                3
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="598.5" y="401.5">
+                4
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="632.5" y="401.5">
+                5
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="666.5" y="401.5">
+                6
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="700.5" y="401.5">
+                7
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="734.5" y="401.5">
+                8
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="768.5" y="401.5">
+                9
+            </text>
+        </g>
+        <g fill="#999999" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="10px">
+            <text x="802.5" y="401.5">
+                0
+            </text>
+        </g>
+        <path d="M 486.5 518.79 L 481 518.79 L 492 506 L 503 518.79 L 497.5 518.79 L 497.5 523.91 L 486.5 523.91 Z M 499.7 526.47 L 499.7 528 L 484.3 528 L 484.3 526.47 Z" fill="#a1a7a9" stroke="none" pointer-events="none"/>
+        <path d="M 770 512 L 776.5 503 L 794.7 503 C 795.42 503 796 503.67 796 504.5 L 796 519.5 C 796 520.33 795.42 521 794.7 521 L 776.5 521 Z M 780.79 515.15 L 781.54 516.02 L 784.3 512.84 L 787.08 516.02 L 787.84 515.15 L 785.03 512 L 787.84 508.85 L 787.08 507.98 L 784.3 511.16 L 781.54 507.98 L 780.79 508.85 L 783.57 512 Z" fill="#a1a7a9" stroke="none" pointer-events="none"/>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="14px">
+            <text x="491.5" y="568.5">
+                ?123
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="536.5" y="570.5">
+                ,
+            </text>
+        </g>
+        <g fill="#bbbbbb" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="24px">
+            <text x="739.5" y="566.5">
+                .
+            </text>
+        </g>
+        <ellipse cx="786" cy="556" rx="18" ry="18" fill="#4cb5ab" stroke="none" pointer-events="none"/>
+        <path d="M 778 558 L 782.8 562 L 794 550" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="565" y="545" width="145" height="25" rx="3.75" ry="3.75" fill="#3c474c" stroke="none" pointer-events="none"/>
+        <rect x="910" y="0" width="358" height="642" fill="#333333" stroke="none" pointer-events="none"/>
+        <path d="M 1031.73 426 C 1005.37 426 984 403.61 984 376 C 984 348.39 1005.37 326 1031.73 326 C 1045.24 300.22 1072.7 286.04 1100.45 290.51 C 1128.2 294.99 1150.32 317.16 1155.82 346 C 1176.91 346 1194 363.91 1194 386 C 1194 408.09 1176.91 426 1155.82 426 Z" fill="#cce5ff" stroke="none" pointer-events="none"/>
+        <ellipse cx="1222" cy="558" rx="28.000000000000004" ry="28.000000000000004" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <ellipse cx="1222" cy="558" rx="28.000000000000004" ry="28.000000000000004" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <ellipse cx="1222" cy="558" rx="7.5" ry="7.5" fill="none" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <path d="M 1222 548 L 1222 550.5" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1212 558 L 1214.5 558" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1222 565.5 L 1222 568" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1229.5 558 L 1232 558" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="1212" y="548" width="0" height="0" fill="none" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <ellipse cx="1222" cy="558" rx="5" ry="5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="923" y="530" width="260" height="56" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="923" y="530" width="260" height="56" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <g fill="#FFFFFF" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="1052.5" y="562.5">
+                SEARCH LOCATION
+            </text>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 268px; height: 1px; padding-top: 125px; margin-left: 955px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 35px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                Schübelbach
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1089" y="136" fill="#FFFFFF" font-family="Helvetica" font-size="35px" text-anchor="middle">
+                    Schübelbach
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 74px; height: 1px; padding-top: 165px; margin-left: 1052px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                Snow
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1089" y="171" fill="#FFFFFF" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    Snow
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 134px; height: 1px; padding-top: 215px; margin-left: 1022px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 65px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                3°
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1089" y="234" fill="#FFFFFF" font-family="Helvetica" font-size="65px" text-anchor="middle">
+                    3°
+                </text>
+            </switch>
+        </g>
+        <rect x="910" y="0" width="358" height="24" fill="#0066cc" stroke="none" pointer-events="none"/>
+        <g fill="#FFFFFF" font-family="Helvetica" pointer-events="none" text-anchor="end" font-size="13px">
+            <text x="1261.5" y="17.5">
+                13:37
+            </text>
+        </g>
+        <path d="M 1213.3 19 L 1213.3 6.25 L 1215.78 6.25 L 1215.78 5.09 L 1219.51 5.09 L 1219.51 6.25 L 1222 6.25 L 1222 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="1213.3" y="9.73" width="8.7" height="9.27" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 1208.32 5.09 L 1208.32 19 L 1193.41 19 Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 1193.41 19 L 1204.59 8.57 L 1204.59 19 Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 1176 8.57 C 1178.24 6.3 1181.39 5 1184.7 5 C 1188.01 5 1191.17 6.3 1193.41 8.57 L 1184.7 19 Z Z" fill-opacity="0.5" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 1177.49 10.31 C 1179.37 8.47 1181.98 7.42 1184.7 7.42 C 1187.43 7.42 1190.04 8.47 1191.91 10.31 L 1184.7 19 Z Z" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <rect x="910" y="594" width="358" height="48" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 992.5 618 L 1006.5 611 L 1006.5 625 Z" fill="#000000" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1089" cy="618" rx="7.000000000000001" ry="7.000000000000001" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+        <rect x="1171.5" y="611" width="14" height="14" fill="#000000" stroke="#ffffff" stroke-width="2" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
