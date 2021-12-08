@@ -1,6 +1,24 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="181px" viewBox="-0.5 -0.5 341 181" content="&lt;mxfile&gt;&lt;diagram id=&quot;XkANImEhYPzRHabgNBEq&quot; name=&quot;Page-1&quot;&gt;7ZhNb+IwEIZ/DXeCoWGPfJTdQytVYrU9O/GQWOvEkTEE9tfvuLbzgYHtoeqqiAuyX4/t8fMOTmBAFsXhu6JV/iwZiMFoyA4DshyMRuM4xk8jHJ1AhlbIFGdWilphzf+AE33YjjPY9gK1lELzqi+msiwh1T2NKiXrfthGiv6uFc0gENYpFaH6ypnOrTqdDFv9B/As9ztHQzdSUB/shG1Omaw7EnkckIWSUttWcViAMOw8FztvdWG0SUxBqd8zYWQn7KnYubM9y4QLeAXMFJRLUh/9yTHfyjR3hVgpWmBzXudcw7qiqdFr9Bu1XBcCe5EZdoAizAQHPBZieonclQzYU+KD96A0R84zwbMStYIzZraeUycI2ODs+Ra342X29NZbTlBx58D5cLjIImoIY2WCLECrI4YcvH92xtEXm/Oobi0mY6flXXunTqSurLJm6ZY8Nhz880aQwIg1qD1PscwveWDKFi0i840s9dqNRy2dn7IyggGtaeILdez6TYFGYyu8yC3XXHYod1z8ALwNO8/3YRLwjc/gnXwA3UlA9xeH+mbQNtfJ8aT/CWjjMzcIXvc3wzaK/l/ZTgO2s6q6FbCnRduA/gSw3wKwAdXOYU+fSonUWhY4IGgCYk7T35kyT7KFFBL5L0tZmmcWlGxmXjZQkRWUVllxk9TSQGd0mwPrAQUWvHic4MQc5U6l0CsQTVUGHs956B2o0YMjqEBQzff9Hc9hdcu9SI65tN+M+MKt45ewmbpZ3ZeQk4UI+cdC9nzBQm8uN2d8l/G+xr6885PQeXJ3/prz0e06H9+dv+Z8+CPnazpP7s5fdR677S9nG97+/UAe/wI=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="181px" viewBox="-0.5 -0.5 341 181" content="&lt;mxfile&gt;&lt;diagram id=&quot;XkANImEhYPzRHabgNBEq&quot; name=&quot;Page-1&quot;&gt;7ZjNbuIwFIWfJnuCCTBLoGVm0UqVGE3XJrkkVp3cyDEE5unHju2EJDAUqWpVxAbZx//fuTZX8cgi3f8UNE+eMQLuDQfR3iMP3nA4nvrqVwsHK/gjI8SCRUbyG2HF/oIVB1bdsgiKVkeJyCXL22KIWQahbGlUCCzb3TbI26vmNIaesAop76uvLJKJUafBoNF/AYsTt7I/sC0pdZ2tUCQ0wvJIIo8eWQhEaUrpfgFcs3NczLjlmdZ6YwIy+a4BxIzYUb61h7Mbkwd3WoHbLAI9YOCReZkwCauchrq1VPYqLZEpVzVfFQsp8A0WyFEoJcNMdZvbNUBI2J/dqF8fX4UNYApSHFSXvYNrRhxcJFiAZcOfjKyWHLOfWpFaz+N66gaLKlgypyn1Ia1A7FioYrALSxma66KOKVAI5hvM5Mq2V4AUOpbFvzHXgiYq6dpF0cjW6+hRF6MSXrBgkmGmJA4b2WZ+huUJ4mfx1uwc33HQ4zs5gTf4ALrDHt1nXDMOr6Bui2J4DvE25UtBU7gclO4Q/lDzrfdPdG1tovtp7TpraEzd9RlnseadsijSS8+pFawB1sinqvYQfIwPXxrmQc+IPwzKm4nx+tE9dOqfEOOTEzGu/hRvhq3vf937Me2xneX5rYDtBm0N+hPA/ricGxwdtvturlFKTFUDp2vgcxq+xVUm0ckNIItmOiVTCuaQGWXJ9KaqfCOiRVIlH/8FWuBWhNCKB0lFDI6GkSBq5XV96EdQ/bElKIBTyXbt1O8UVjvdCzK1ueZmTM68Om4Ks3U76jhV60xEyIWJzIF7E1Uu12d8l/Euxr6b80HfeXJ3/irn/ZtxfnJ3/irn+2n4t3Ce3J2/znlVbb4vmO7NRxry+A8=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
+        <rect x="0" y="0" width="340" height="180" fill="#ffffff" stroke="none" pointer-events="all"/>
+        <path d="M 255 79 L 255 65 L 295 65 L 295 79 M 255 79 L 325 79 L 325 115 L 255 115 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 95px; margin-left: 290px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                Services
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="290" y="99" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    Services
+                </text>
+            </switch>
+        </g>
         <path d="M 0 0 L 120 0 L 120 15 L 110 30 L 0 30 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <path d="M 120 0 L 340 0 L 340 180 L 0 180 L 0 30" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
@@ -16,23 +34,6 @@
                 </foreignObject>
                 <text x="7" y="19" fill="#000000" font-family="Helvetica" font-size="12px">
                     MobileWeather
-                </text>
-            </switch>
-        </g>
-        <path d="M 255 79 L 255 65 L 295 65 L 295 79 M 255 79 L 325 79 L 325 115 L 255 115 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 95px; margin-left: 290px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
-                                Services
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="290" y="99" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
-                    Services
                 </text>
             </switch>
         </g>
