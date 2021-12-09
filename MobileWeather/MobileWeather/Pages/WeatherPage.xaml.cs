@@ -19,7 +19,7 @@ namespace MobileWeather.Pages
 
         private void Search_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new SearchPage());
         }
 
         private void GPS_Clicked(object sender, EventArgs e)
