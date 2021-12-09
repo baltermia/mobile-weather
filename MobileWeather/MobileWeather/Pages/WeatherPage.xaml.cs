@@ -16,5 +16,15 @@ namespace MobileWeather.Pages
         {
             InitializeComponent();
         }
+
+        private void Search_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GPS_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

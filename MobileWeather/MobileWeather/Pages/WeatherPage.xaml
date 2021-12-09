@@ -4,12 +4,67 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="MobileWeather.Pages.WeatherPage">
+             x:Class="MobileWeather.Pages.WeatherPage"
+             BackgroundColor="#333333">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" VerticalOptions="Center">
+                <Label x:Name="lblLocation"
+                       TextColor="#CCE5FF"
+                       FontSize="35"
+                       Text="Zillis"
+                       HorizontalOptions="Center"/>
+
+                <Label x:Name="lblWeather"
+                       TextColor="#CCE5FF"
+                       FontSize="20"
+                       Text="Snow"
+                       HorizontalOptions="Center"/>
+
+                <Label x:Name="lblTemperature"
+                       TextColor="#CCE5FF"
+                       FontSize="65"
+                       Text="-2°"
+                       HorizontalOptions="Center"/>
+
+                <Image Source="cloud.png"
+                       WidthRequest="200" 
+                       HorizontalOptions="Center" />
+            </StackLayout>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" 
+                        Text="SEARCH LOCATION"
+                        BackgroundColor="#0066CC"
+                        TextColor="#FFFFFF"
+                        Clicked="Search_Clicked"/>
+
+                <Grid Grid.Column="1">
+                    <Button 
+                        BackgroundColor="#0066CC"
+                        CornerRadius="50" 
+                        Clicked="GPS_Clicked"/>
+
+                    <Image Source="gps.png"
+                           Margin="10">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GPS_Clicked" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
+
+            </Grid>
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
