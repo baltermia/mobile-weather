@@ -16,7 +16,8 @@
             <Grid Grid.Row="0" BackgroundColor="#0066FF" Padding="5">
                 <SearchBar x:Name="sbrSearch"
                            BackgroundColor="#FFFFFF"
-                           Placeholder="Search for new Location" />
+                           Placeholder="Search for new Location" 
+                           TextChanged="SearchBar_TextChanged"/>
             </Grid>
         </Grid>
     </ContentPage.Content>

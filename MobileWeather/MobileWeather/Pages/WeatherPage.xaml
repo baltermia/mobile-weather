@@ -56,7 +56,8 @@
                         Clicked="GPS_Clicked"/>
 
                     <Image Source="gps.png"
-                           Margin="10">
+                           Margin="10"
+                           >
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="GPS_Clicked" />
                         </Image.GestureRecognizers>
