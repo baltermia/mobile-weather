@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MobileWeather.Models
+﻿namespace MobileWeather.Models
 {
-    class Location
+    public class Location
     {
+        public string Name { get; set; }
     }
 }
