@@ -4,12 +4,20 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="MobileWeather.Pages.SearchPage">
+             x:Class="MobileWeather.Pages.SearchPage"
+             BackgroundColor="#333333">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" BackgroundColor="#0066FF" Padding="5">
+                <SearchBar x:Name="sbrSearch"
+                           BackgroundColor="#FFFFFF"
+                           Placeholder="Search for new Location" />
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
