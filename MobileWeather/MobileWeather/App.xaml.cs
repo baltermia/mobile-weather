@@ -1,8 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 using MobileWeather.Services;
-using MobileWeather.Views;
+using MobileWeather.Pages;
 
 namespace MobileWeather
 {
@@ -13,8 +11,8 @@ namespace MobileWeather
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            DependencyService.Register<LocationService>();
+            MainPage = new NavigationPage(new WeatherPage());
         }
 
         protected override void OnStart()
