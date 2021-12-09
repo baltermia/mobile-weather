@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MobileWeather.Models
+﻿namespace MobileWeather.Models
 {
-    class LocationChangedEventArgs
+    public class LocationChangedEventArgs
     {
+        public Location Location { get; set; }
+
+        public LocationChangedEventArgs(Location location)
+        {
+            Location = location;
+        }
     }
 }
