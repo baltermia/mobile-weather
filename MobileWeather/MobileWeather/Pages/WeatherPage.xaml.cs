@@ -46,7 +46,8 @@ namespace MobileWeather.Pages
                 City = mark.Locality,
                 Zip = mark.PostalCode,
                 State = mark.AdminArea,
-                Country = mark.CountryName
+                Country = mark.CountryName,
+                CountryCode = mark.CountryCode
             };
 
             _service.CurrentLocation = location;
