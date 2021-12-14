@@ -23,15 +23,14 @@ namespace MobileWeather.Pages
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-            _service.CurrentLocation = new Location()
-            {
-                Name = sbrSearch.Text
-            };
+
         }
 
         private void Locations_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             LocationItem location = e.Item as LocationItem;
+
+            _service.CurrentLocation = location.LocationObject;
         }
     }
 }
