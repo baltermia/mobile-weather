@@ -4,8 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="MobileWeather.Pages.SearchPage"
-             BackgroundColor="#333333">
+             x:Class="MobileWeather.Pages.SearchPage">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -19,6 +18,14 @@
                            Placeholder="Search for new Location" 
                            TextChanged="SearchBar_TextChanged"/>
             </Grid>
+
+            <ListView Grid.Row="1" ItemsSource="{Binding Locations}" ItemTapped="Locations_ItemTapped" BackgroundColor="#FFFFFF">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Location}" Detail="{Binding CountryCountyString}" TextColor="#000000"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

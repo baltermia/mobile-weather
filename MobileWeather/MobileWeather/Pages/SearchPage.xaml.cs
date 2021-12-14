@@ -2,6 +2,8 @@
 using MobileWeather.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections.ObjectModel;
+using MobileWeather.ViewModels;
 
 namespace MobileWeather.Pages
 {
@@ -9,6 +11,9 @@ namespace MobileWeather.Pages
     public partial class SearchPage : ContentPage
     {
         private readonly LocationService _service;
+
+        private readonly ObservableCollection<LocationItem> Locations = new ObservableCollection<LocationItem>();
+
         public SearchPage()
         {
             InitializeComponent();
@@ -22,6 +27,11 @@ namespace MobileWeather.Pages
             {
                 Name = sbrSearch.Text
             };
+        }
+
+        private void Locations_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            LocationItem location = e.Item as LocationItem;
         }
     }
 }
