@@ -1,5 +1,8 @@
 <div align="center">
-  <h1>⛅ MobileWeather</h1>
+  <h1>
+    <img src="deployment/icon.png" width="40px" />
+    MobileWeather
+  </h1>
   You've never seen the weather this simple tbefore!
 </div>
 
