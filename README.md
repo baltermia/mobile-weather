@@ -1,5 +1,8 @@
 <div align="center">
-  <h1>⛅ <a href="https://speyck.github.io/mobile-weather/">MobileWeather</a></h1>
+  <h1>
+    <img src="docs/deployment/icon.png" width="40px" />
+    <a href="https://speyck.github.io/mobile-weather/">MobileWeather</a>
+  </h1>
   A simple mobile app created with xamarin which shows you the weather.
 </div>
 
