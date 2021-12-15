@@ -19,10 +19,10 @@
                            TextChanged="SearchBar_TextChanged"/>
             </Grid>
 
-            <ListView Grid.Row="1" ItemsSource="{Binding Locations}" ItemTapped="Locations_ItemTapped" BackgroundColor="#FFFFFF">
+            <ListView Grid.Row="1" x:Name="lstResults" ItemTapped="Locations_ItemTapped" BackgroundColor="#FFFFFF">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Location}" Detail="{Binding CountryCountyString}" TextColor="#000000"/>
+                        <TextCell Text="{Binding Location}" Detail="{Binding Details}" TextColor="#000000"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
