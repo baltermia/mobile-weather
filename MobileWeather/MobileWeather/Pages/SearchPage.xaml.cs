@@ -25,7 +25,7 @@ namespace MobileWeather.Pages
             _service = DependencyService.Get<LocationService>();
         }
 
-        private async System.Threading.Tasks.Task SearchBar_TextChangedAsync(object sender, TextChangedEventArgs e)
+        private async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             try
             {
