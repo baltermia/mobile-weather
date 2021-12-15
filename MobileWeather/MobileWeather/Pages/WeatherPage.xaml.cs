@@ -10,8 +10,6 @@ using XamarinLocation = Xamarin.Essentials.Location;
 using System.Collections.Generic;
 using System.Linq;
 using RestSharp;
-using System.IO;
-using Newtonsoft.Json.Linq;
 
 namespace MobileWeather.Pages
 {
@@ -37,35 +35,49 @@ namespace MobileWeather.Pages
 
         private async void GPS_Clicked(object sender, EventArgs e)
         {
-            XamarinLocation geo = await Geolocation.GetLastKnownLocationAsync();
-
-            IEnumerable<Placemark> placemarks = await Geocoding.GetPlacemarksAsync(Math.Round(geo.Latitude, 3), Math.Round(geo.Longitude, 3));
-
-            Placemark mark = placemarks?.FirstOrDefault();
-            
-            ModelLocation location = new ModelLocation()
+            try
             {
-                City = mark.Locality
-            };
+                XamarinLocation geo = await Geolocation.GetLastKnownLocationAsync();
 
-            _service.CurrentLocation = location;
+                IEnumerable<Placemark> placemarks = await Geocoding.GetPlacemarksAsync(Math.Round(geo.Latitude, 3), Math.Round(geo.Longitude, 3));
+
+                Placemark mark = placemarks?.FirstOrDefault();
+
+                ModelLocation location = new ModelLocation()
+                {
+                    City = mark.Locality
+                };
+
+                _service.CurrentLocation = location;
+            }
+            catch
+            {
+                await DisplayAlert("Error", "GPS Location couldn't be calibrated. Please try again later.", "Continue");
+            }
         }
 
         private async void OnLocationChanged_Handler(object sender, LocationChangedEventArgs e)
         {
-            ModelLocation location = e.Location;
+            try
+            {
+                ModelLocation location = e.Location;
 
-            lblLocation.Text = location.City;
+                lblLocation.Text = location.City;
 
-            RestRequest request = GetDefaultRequest();
-            
-            request.AddParameter("q", location.City);
-            IRestResponse response = await client.ExecuteAsync(request);
+                RestRequest request = GetDefaultRequest();
 
-            OpenWeatherResponse weather = JsonConvert.DeserializeObject<OpenWeatherResponse>(response.Content);
+                request.AddParameter("q", location.City);
+                IRestResponse response = await client.ExecuteAsync(request);
 
-            lblWeather.Text = weather.WeatherList.FirstOrDefault()?.Description;
-            lblTemperature.Text = Math.Round(weather.Temperature.Main).ToString() + "°";
+                OpenWeatherResponse weather = JsonConvert.DeserializeObject<OpenWeatherResponse>(response.Content);
+
+                lblWeather.Text = weather.WeatherList.FirstOrDefault()?.Description;
+                lblTemperature.Text = Math.Round(weather.Temperature.Main).ToString() + "°";
+            }
+            catch
+            {
+                await DisplayAlert("Error", "Couldn't retrieve weather data. Please check for a internet connection and try again later.", "Continue");
+            }
         }
 
         private RestRequest GetDefaultRequest(Method method = Method.GET)

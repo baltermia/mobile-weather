@@ -7,9 +7,6 @@ using MobileWeather.ViewModels;
 using RestSharp;
 using Newtonsoft.Json;
 using System.Linq;
-using System.IO;
-using Newtonsoft.Json.Linq;
-using System;
 
 namespace MobileWeather.Pages
 {
@@ -28,20 +25,27 @@ namespace MobileWeather.Pages
             _service = DependencyService.Get<LocationService>();
         }
 
-        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        private async System.Threading.Tasks.Task SearchBar_TextChangedAsync(object sender, TextChangedEventArgs e)
         {
-            RestRequest request = GetDefaultRequest();
-            request.AddParameter("input", sbrSearch.Text);
-
-            IRestResponse response = client.Execute(request);
-
-            AutocompleteResultJson jsonResult = JsonConvert.DeserializeObject<AutocompleteResultJson>(response.Content);
-
-            lstResults.ItemsSource = new ObservableCollection<LocationItem>(jsonResult.AutocompleteResults.Select(r => new LocationItem()
+            try
             {
-                Location = r.Details.Main,
-                Details = r.Details.Secondary
-            }));
+                RestRequest request = GetDefaultRequest();
+                request.AddParameter("input", sbrSearch.Text);
+
+                IRestResponse response = client.Execute(request);
+
+                AutocompleteResultJson jsonResult = JsonConvert.DeserializeObject<AutocompleteResultJson>(response.Content);
+
+                lstResults.ItemsSource = new ObservableCollection<LocationItem>(jsonResult.AutocompleteResults.Select(r => new LocationItem()
+                {
+                    Location = r.Details.Main,
+                    Details = r.Details.Secondary
+                }));
+            }
+            catch
+            {
+                await DisplayAlert("Error", "Couldn't retrieve location reccomendations. Please check for a internet connection and try again later.", "Continue");
+            }
         }
 
         private async void Locations_ItemTapped(object sender, ItemTappedEventArgs e)
