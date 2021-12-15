@@ -26,6 +26,8 @@ namespace MobileWeather.Pages
 
             _service = DependencyService.Get<LocationService>();
             _service.OnLocationChanged += OnLocationChanged_Handler;
+
+            GetSavedLocation();
         }
 
         private void Search_Clicked(object sender, EventArgs e)
@@ -58,10 +60,19 @@ namespace MobileWeather.Pages
 
         private async void OnLocationChanged_Handler(object sender, LocationChangedEventArgs e)
         {
+            ModelLocation location = e.Location;
+
             try
             {
-                ModelLocation location = e.Location;
+                await SecureStorage.SetAsync("location", JsonConvert.SerializeObject(location));
+            }
+            catch
+            {
+                await DisplayAlert("Error", "Couldn't save Location on device-storage.", "Continue");
+            }
 
+            try
+            {
                 lblLocation.Text = location.City;
 
                 RestRequest request = GetDefaultRequest();
@@ -88,6 +99,21 @@ namespace MobileWeather.Pages
             request.AddParameter("units", "metric");
 
             return request;
+        }
+
+        private async void GetSavedLocation()
+        {
+            ModelLocation location = null;
+            try
+            {
+                location = JsonConvert.DeserializeObject<ModelLocation>(await SecureStorage.GetAsync("location"));
+            } 
+            catch { }
+
+            if (location != null)
+            {
+                _service.CurrentLocation = location;
+            }
         }
     }
 }
