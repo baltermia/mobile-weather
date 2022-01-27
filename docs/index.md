@@ -3,7 +3,7 @@
     <img src="deployment/icon.png" width="40px" />
     MobileWeather
   </h1>
-  You've never seen the weather this simple tbefore!
+  You've never seen the weather this simple before!
 </div>
 
 ---
